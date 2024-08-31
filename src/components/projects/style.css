@@ -1,0 +1,36 @@
+.pro{
+    width: 100vw;
+    height: 80vh;
+    background-color: white;
+    box-sizing: border-box;
+}
+.pro h1{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+.projects{
+    display: flex;
+}
+.project img{
+    width: 300px;
+    height: 300px;
+}
+.project a:hover{
+    text-decoration: underline;
+    font-size: larger;
+}
+.project{
+    width: 30%;
+    background-color: rgb(206, 205, 205);
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+.project a{
+    display: block;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    padding: 20px 0;
+}

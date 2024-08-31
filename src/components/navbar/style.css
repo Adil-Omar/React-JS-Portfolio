@@ -1,0 +1,54 @@
+.nav{
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 225);
+    padding-left: 30px;
+    align-items: center;
+    position: sticky;
+    width: 100vw;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 400px;
+}
+.nav ul li{
+    font-size: larger;
+    font-weight: 400;
+    margin: 0 30px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    align-content:center ;
+    text-align: center;
+    border-radius: 30px;
+}
+.nav ul li:hover{
+    background-color: rgb(238, 236, 236);
+    cursor: pointer;
+}
+.nav button{
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    margin-left: 50px;
+    background-color: rgb(57, 57, 57);
+}
+.nav button:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+#mail{
+    color:white;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.myPic img{
+    margin: 100px 0 0 100px;
+}

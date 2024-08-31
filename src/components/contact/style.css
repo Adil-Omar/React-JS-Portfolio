@@ -1,0 +1,49 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: white;
+}
+.con{
+    background-color: rgb(188, 185, 185);
+    padding: 100px;
+}
+#con{
+    text-align: center;
+}
+.social{
+    width: 50%;
+    padding: 70px;
+}
+.social a{
+    color: black;
+}
+.social a:hover{
+    color: gray;
+}
+.mess{
+    width: 50%;
+    padding: 70px;
+}
+.mess textarea{
+    width: 400px;
+    font-size: large;
+    padding: 10px;
+    height: 200px;
+}
+.mess button{
+    padding: 13px 22px;
+    margin-top: 10px;
+    font-size: large;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+}
+.mess button:hover{
+    color: white;
+    background-color: rgb(219, 143, 3);
+}
+.social p{
+    font-size: x-large;
+    padding: 15px 0;
+}

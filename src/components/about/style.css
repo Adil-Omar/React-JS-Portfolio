@@ -1,0 +1,33 @@
+.about{
+    margin-top: 40px;
+    width: 99vw;
+    height: 90vh;
+    background-color: rgb(206, 205, 205);
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.about h1{
+    margin-top: 40px;
+    font-size: 36px ;
+}
+.aboutMe{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.info{
+    width: 40%;
+    background-color: white;
+    margin: 10px 0 0 20px;
+    height: 450px;
+    border-radius: 20px ;
+}
+
+.info{
+    padding: 0 40px 0 40px;
+}
+.info li{
+    list-style: circle;
+    padding: 10px 0;
+    font-size: large;
+}
